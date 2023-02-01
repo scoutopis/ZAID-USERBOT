@@ -9,13 +9,13 @@ services:
     branch: master
     envVars:
       - key: SUDO_USERS 
-        sync: false
+        sync: Ture
       - key: BOT_TOKEN 
-        sync: false
+        sync: Ture
       - key: OWNER_ID 
-        sync: false
+        sync: Ture
       - key: STRING_SESSION1
-        sync: false
+        sync: Ture
       - key: MONGO_URL
-        sync: false    
-    autoDeploy: false
+        sync: True
+    autoDeploy: True
